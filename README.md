@@ -4,14 +4,21 @@ A Python library for the numerical implementation of constitutive models for sma
 
 # Features
 ## * J2 Flow Theory (Von Mises):
+
   ** Radial return mapping algorithm.
+  
   ** Non-linear isotropic hardening (Voce/Saturation type).
+  
   ** Linear kinematic hardening (Prager).
+  
   ** Newton-Raphson solver for the consistency parameter $\Delta \gamma$.
 
-##* 1D Plasticity:
+## * 1D Plasticity:
+
   ** Uniaxial stress-strain implementation for algorithmic validation.
+  
   ** Viscoplasticity (Perzyna regularization).
+  
   ** Coupled isotropic/kinematic hardening.
   
 # Mathematical Formulation
@@ -37,3 +44,4 @@ python examples/run_j2_simulation.py
 
 # Author
 Mariano Tomás Fernandez - Implementation and development
+
